@@ -45,7 +45,7 @@ body{
 
 .header-title {
 
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
     letter-spacing: -0.5px;
     font-family: 'Nanum Myeongjo', serif;
@@ -69,7 +69,7 @@ body{
     text-decoration: none;
     color : #222;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
     transition: all 0.3;
     padding-right: 7rem;
     font-family: 'Nanum Myeongjo', serif;
@@ -90,7 +90,7 @@ body{
 
 .section-text {
     align-items: center;
-    font-size: 4.5rem;
+    font-size: 4.7rem;
     font-weight: 500;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
@@ -115,11 +115,11 @@ body{
     display: flex;
     /* justify-content: center; */
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 3.7rem;
+    font-weight: 400;
     align-items: center;
     padding: 5rem 0;
-    padding-left: 10rem;
+    padding-left: 5.5rem;
 }
 
 .projects-outline {
@@ -146,22 +146,26 @@ color: red;
 } */
 
 .project-img {
-    height: 43rem;
-     width: 37rem;
+    height: 47rem;
+     width: 40rem;
      border-radius: 1rem;
      position: relative;
      /* display: inline-block; */
      /* margin: 0 2rem; */
  }
 
- .project-img:hover {
+ .project-img:hover,
+ .project-img:hover + .see-more {
     /* opacity: 1; */
 
-    background-color: rgba(38, 34, 34, 0.5);
-    transition: .15s;
-    /* transform: scale(1.1); */
+    /* background-color: rgba(38, 34, 34, 0.5);
+    transition: .15s; */
+    filter:brightness(0.7);
+    transform: scale(1.05);
+    display: block
 
   }
+
 
 .section-project{
     display: flex;
@@ -183,19 +187,21 @@ color: red;
     /* border-radius: 3rem; */
 }
 
-     .connect{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 15rem; 
-}
 
 
 .see-more{
     display: none;
     text-decoration: none;
-    font-size: 2rem;
-    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family:'Nanum Myeongjo', serif ;
+    position: absolute;
+    margin-left: 17rem;
+    top: 120%;
+    bottom: 120%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 /* 
 .pic:hover > .overlay {
@@ -210,3 +216,21 @@ color: red;
     display: block;
 }
  */
+
+
+ .connect{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 5rem;
+    padding: 6rem 15rem; 
+    background-color: #9c9c92;
+}
+
+.connects{
+    font-size: 3.2rem;
+    font-family: 'PT Sans Narrow', sans-serif ;
+    font-weight: 400;
+    margin-left: 5rem;
+
+}
