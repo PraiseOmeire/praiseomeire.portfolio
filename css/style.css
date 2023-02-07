@@ -1,0 +1,212 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Rubik", sans-sefrif;
+    line-height: 1;
+    font-weight: 400;
+    color: #222;
+    background-color: #f2f2f1;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f2efe3; */
+    /* padding: 0 10rem; */
+
+}
+
+
+.header {
+    gap: 2rem;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fff; */
+    /* height: 10rem; */
+    padding: 4rem 0;
+    /* position: relative; */
+    /* border-radius: 3rem; */
+    background-image: url("../images/mk-s-Sp7pS7imt1w-unsplash.jpg");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+ 
+
+}
+
+.header-title {
+
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left:5rem;
+    font-weight: bold;
+    align-items: center;
+    padding-left:10rem ;
+
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    /* gap: 4.8; */
+    align-items: center;
+}
+
+.nav-link {
+    display : inline-block;
+    text-decoration: none;
+    color : #222;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: all 0.3;
+    padding-right: 7rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.nav-link:hover{
+    color:rgb(71, 4, 71);
+    transform: scale(1.1);
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 11rem; 
+    padding-bottom: 5rem;
+}
+
+.section-text {
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: 500;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+}
+
+
+.section-texts{
+
+    font-family: 'Babylonica', cursive;
+    padding: 2rem;
+    font-size: 5rem;
+    letter-spacing: 1.2px;
+}
+
+.project-section{
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.recent-project {
+    display: flex;
+    /* justify-content: center; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    align-items: center;
+    padding: 5rem 0;
+    padding-left: 10rem;
+}
+
+.projects-outline {
+    gap: 3rem;
+    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
+  
+    box-shadow: 0 0rem 0 rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    margin: 0 2rem;
+
+}
+/* 
+.projects-outline:hover{
+    background-color: rgba(38, 33, 33, 0.5);
+    transition: .15s;
+} */
+
+/* .overlay:hover + .see-more{
+display: block;
+color: red;
+} */
+
+.project-img {
+    height: 43rem;
+     width: 37rem;
+     border-radius: 1rem;
+     position: relative;
+     /* display: inline-block; */
+     /* margin: 0 2rem; */
+ }
+
+ .project-img:hover {
+    /* opacity: 1; */
+
+    background-color: rgba(38, 34, 34, 0.5);
+    transition: .15s;
+    /* transform: scale(1.1); */
+
+  }
+
+.section-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 15rem; */
+}
+     
+.project-list{
+    list-style: none;
+    padding-top: 4rem;
+}
+
+.project-link-button{
+    padding:0;
+    /* background-color: #fff; */
+    color: #7099c2;
+    font-size: 1.5rem;
+    /* border-radius: 3rem; */
+}
+
+     .connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 15rem; 
+}
+
+
+.see-more{
+    display: none;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+/* 
+.pic:hover > .overlay {
+    position: absolute;
+    top: 0;
+    height: 43rem;
+    width: 37rem;
+    left: 0;
+    background-color:#000;
+    opacity:0.5;
+    z-index: 100;
+    display: block;
+}
+ */
