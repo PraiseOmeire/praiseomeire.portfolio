@@ -94,6 +94,7 @@ body{
     font-weight: 500;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
+    margin-left: 3rem;
 }
 
 
@@ -102,7 +103,8 @@ body{
     font-family: 'Babylonica', cursive;
     padding: 2rem;
     font-size: 5rem;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.5px;
+    line-height: 6rem;
 }
 
 .project-section{
