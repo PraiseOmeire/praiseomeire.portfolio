@@ -73,10 +73,15 @@
   }
 
 
+ .forkify-link:hover{
+    color: rgb(117, 13, 117);
+ }
+
  .project-title {
     margin: 3rem 0;
    
  }
+
 
  .project-text{
     font-size: 1.7rem ;

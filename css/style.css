@@ -202,6 +202,7 @@ color: red;
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: #222;
 }
 /* 
 .pic:hover > .overlay {
@@ -233,4 +234,13 @@ color: red;
     font-weight: 400;
     margin-left: 5rem;
 
+}
+
+.media{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #222;
+    margin-left: 10rem;
+    font-size: 1.5rem;
 }
