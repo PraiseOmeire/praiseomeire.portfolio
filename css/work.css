@@ -1,0 +1,30 @@
+
+.work {
+    align-items: center;
+    font-size: 4.7rem;
+    font-weight: 500;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    /* padding: 12rem; */
+    margin-bottom: 5rem;
+
+}
+
+.work-text{
+    font-family: 'Babylonica', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    margin-left: 30rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 7rem;
+}
+
+.work-texts{
+    font-family: 'PT Sans Narrow', sans-serif ;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 6rem 30rem;
+}
