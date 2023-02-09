@@ -1,0 +1,64 @@
+/* below 544*/
+
+@media (max-width: 34em) {
+    
+
+    .header{
+        max-width: 100%;
+    }
+
+    .btn-mobile-nav {
+        display: block;
+        z-index: 1000;
+      }
+
+    .nav{
+        background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+
+    /* hide the navigation */
+    /* display: none; */
+
+    /* 1  hide it vissually*/
+    opacity: 0;
+    /* 2  make it unaccesible to mousse and keyboard*/
+    pointer-events: none;
+
+    /* 3  hide from screen readers*/
+    visibility: hidden;
+    }
+
+
+    .grid {
+        row-gap: 4.8rem;
+    }
+
+    .grid--2-cols,
+    .grid--3-cols{
+        grid-template-columns: 1fr;
+    }
+
+    .projects-outline{
+        grid-template-columns: 1fr;
+    }
+
+    .header-title{
+        padding: 0 2rem;
+    }
+
+    .connect{
+        
+    }
+}
