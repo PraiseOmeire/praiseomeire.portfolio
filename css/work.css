@@ -14,7 +14,7 @@
 }
 
 .work-text{
-    font-family: 'Babylonica', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 6rem;
     font-weight: 400;
     margin-left: 30rem;
@@ -27,4 +27,8 @@
     font-size: 4rem;
     font-weight: 400;
     margin: 6rem 30rem;
+    margin-bottom: 25rem;
+    padding-bottom: 20rem;
 }
+
+
