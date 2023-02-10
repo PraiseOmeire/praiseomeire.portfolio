@@ -39,7 +39,6 @@ body{
 .header-title {
 
     font-size: 3.5rem;
-    font-weight: bold;
     letter-spacing: -0.5px;
     font-family: 'Nanum Myeongjo', serif;
     margin-left:5rem;
@@ -93,7 +92,7 @@ body{
 
 .section-texts{
 
-    font-family: 'Babylonica', cursive;
+    font-family: 'Playfair Display', serif;
     padding: 2rem;
     font-size: 5rem;
     letter-spacing: 1.5px;
@@ -110,7 +109,7 @@ body{
     display: flex;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 3.7rem;
-    font-weight: 400;
+    font-weight: bold;
     align-items: center;
     padding: 5rem 0;
     padding-left: 5.5rem;
@@ -203,3 +202,40 @@ body{
 .media:hover{
     color: rgb(117, 13, 117);
 }
+
+
+/* mobile */
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  .icon-mobile-nav {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+  }
+  
+  .icon-mobile-nav[name="close-outline"] {
+    display: none;
+  }
+  
+  .sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.973);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .sticky .section-hero {
+    margin-top: 9.6rem;
+  }
